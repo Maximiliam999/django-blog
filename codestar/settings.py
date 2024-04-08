@@ -30,7 +30,7 @@ SECRET_KEY = os.environ.get("SECRET_KEY")
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-maximiliam999-django-blo-t3rli6skfc.us1.codeanyapp.com', 
+ALLOWED_HOSTS = ['8000-maximiliam99-djangoblog-5atc5ttt32p.ws-eu110.gitpod.io', 
                 '.herokuapp.com']
 
 
@@ -94,7 +94,7 @@ DATABASES = {
 }
 
 CSRF_TRUSTED_ORIGINS = [
-    "https://*.codeanyapp.com",
+    "https://*.gitpod.io",
     "https://*.herokuapp.com"
 ]
 
